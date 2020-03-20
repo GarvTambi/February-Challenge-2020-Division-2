@@ -15,7 +15,7 @@ int main()
         cin>>a[i];
         for(i=0;i<n;i++)
         cin>>b[i];
-        vector<long long int> c;
+        vector<long long int> c;   // dynamic allocation
         long long int cnt=0;
         for(i=0;i<n;i++)
         {
